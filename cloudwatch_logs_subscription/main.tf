@@ -1,3 +1,4 @@
+#Just a comment so that I get a new Git hash
 locals {
   arn     = regex("arn:aws:lambda:(?P<region>[^:]+):(?P<account>[0-9]+)", var.lambda.arn)
   region  = local.arn["region"]
