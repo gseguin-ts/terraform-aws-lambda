@@ -153,3 +153,9 @@ variable "dead_letter_queue_destination" {
   default     = null
   description = "Send failed events/function executions to a dead letter queue arn sns or sqs"
 }
+
+variable "guillaume_test" {
+  type        = string
+  default     = "coucou"
+  description = "Just a test"
+}
